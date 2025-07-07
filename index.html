@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kpom.one</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --bg: #111;
+            --text: #eee;
+            --secondary: #aaa;
+            --link: #4ea3ff;
+            --border: #333;
+        }
+
+        body {
+            background: var(--bg);
+            font-family: system-ui, sans-serif;
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2em;
+        }
+
+        .card {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2em;
+            max-width: 400px;
+            width: 100%;
+            background: #1a1a1a;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+            object-fit: cover;
+            border: 2px solid var(--border);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.75em;
+        }
+
+        .tagline {
+            font-style: italic;
+            color: var(--secondary);
+            margin: 0.5em 0 1.5em;
+        }
+
+        .links a {
+            display: block;
+            margin: 0.5em 0;
+            color: var(--link);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/96" alt="Profile picture">
+        <h1>kpom.one</h1>
+        <p>Kaleb Pomeroy</p>
+        <p class="tagline">Lorcana Player · Game Designer · Software & Security Nerd</p>
+        <div class="links">
+            <a href="https://github.com/kpom-one" target="_blank">GitHub</a>
+            <a href="https://instagram.com/kpom.one" target="_blank">Instagram</a>
+            <a href="https://snapchat.com/add/kpom.one" target="_blank">Snapchat</a>
+            <a href="mailto:kaleb.pomeroy@gmail.com">Email</a>
+            <p>Discord: <code>@kpom_one</code></p>
+        </div>
+    </div>
+</body>
+</html>
